@@ -11,28 +11,14 @@ class node{
 		node(int d): data(d), prev(NULL), next(NULL){}
 };
 
-void fprint(node* head){
+void print(node* head){
 	
 	node* temp = head;
 	
 	while( temp != NULL ){
 		
-		cout<<temp->data <<endl;
-		temp = temp->next;
-	}
-}
-
-
-void bprint(node* head){
-	
-	node* temp = head;
-	while( temp->next != NULL )
-		temp = temp->next;
-	
-	while( temp != NULL ){
-		
-		cout<<temp->data <<endl;
-		temp = temp->prev;
+		cout<<temp->prev << "\t"<<temp->data  <<"\t"<<temp->next <<endl;
+		temp = temp->;
 	}
 }
 
@@ -52,9 +38,7 @@ int main(){
 	n3->next = n4;
 	n4->prev = n3;
 	
-	fprint( n1 );
-	cout<<endl;
-	bprint( n1 );
+	print( n1 );
 	
 	return 0;
 }
