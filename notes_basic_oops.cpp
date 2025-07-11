@@ -39,7 +39,16 @@ Static data member:
 		among all instances of the class.
 
 
-Static member function:			
+
+Template:
+	Template is a base of generic programming in C++.
+	
+Generic Programming:
+	Programming which is independent of data type is called generic programming
+	
+- In C++, implementation of template is perform wia two method:
+	1. generic function
+	2. generic class	
 
 
 
