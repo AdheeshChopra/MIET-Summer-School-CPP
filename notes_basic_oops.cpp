@@ -1,76 +1,35 @@
-Constructor:
-	Constructor are the function define inside class and function name must be same
-	as class name.
+// Stack:
+// 	Stack is a linear data structure that follows the LIFO(Last in first out) principle.
 	
-	- Constructor did not have any return type.
-	- We can not call constructor function, it was invoke when object of a class is
-		created.
-	- constructor can be overload.
+// 	- Stack has one end only.
+// 	- It contains only one pointer pointing to the topmost element of the stack.
 	
-	- Types of constructor.
-	
-		1. Default constructor / Non-parameterized constructor:
-			Constructor did not have any parameter is called default constructor.
-			
-		2. Parameterized constructor:
-			Constructor having paramenter is called parameterized constructor
-			
-		3. Copy constructor:
-			A constructor that initialized an object using another object of the same
-			class.
-			- If we not define copy constructor then compiler define it for us.
-			
-		note:
-			for every constructor call, there must have constructor definition 
-			other wise it shows an error.	
-			
-			
-Distructor:
-	It is use to distroy the object.
-	- in other word it deallocate memory allocated by constructor.
-	
-
-this keyword:
-	this keyword is a constant pointer which contain address of current object.		
-			
-Static data member:
-	It define using static keyword.
-	- When static is used with data member in a class, it makes the variable shared
-		among all instances of the class.
+// 	eg:
+// 		Recursion
+// 		Do and Un-Do mechanism.
+		
+// 	Stack Functions:
+// 		1. push(): use to store element in stack.
+// 		2. pop(): use to remove elment from the top of the stack.
+// 		3. top(): Returns the element at the top of the stack without removing it.
+// 		4. empty(): Returnns true if stack is empty otherwise false.
+// 		5. size(): return number of elements of stack.
+		
 
 
+// Polish Notation:
+// 	This type of notation was introduced by the Polish mathematician Lukasiewicz. 
+// 	- Polish notation in data structure tells us about different ways to write an 
+// 		arithmetic expression. 
+		
+// 	- An arithmetic expression contains 2 things:
+// 		1. Operator:
+// 			Operator is a symbol that represents a specific operation to be performed.
+// 			eg:
+// 				+, -, *, /, ^, %
 
-Template:
-	Template is a base of generic programming in C++.
-	
-Generic Programming:
-	Programming which is independent of data type is called generic programming
-	
-- In C++, implementation of template is perform wia two method:
-	1. generic function
-	2. generic class	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			
-			
-			
-			
-			
-			
-			
+		
+// 		2. Operand:	
+// 			Operand is a value or a variable on which an opertion is performed by an operator.
+// 			eg:
+// 				0 to 9, a to z, A to Z

@@ -13,8 +13,8 @@ void sum(int num){
 		
 	s += num;
 	sum( num-1 );
-}
 
+}
 int main(){
 	
 	sum( 5 );

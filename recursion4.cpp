@@ -18,4 +18,4 @@ int main(){
 	func( 1 );
 	
 	return 0;
-} 
+}
