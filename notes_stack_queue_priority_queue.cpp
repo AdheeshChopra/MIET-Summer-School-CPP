@@ -145,9 +145,37 @@ Searching:
 	 
 	
 	
-	
-	
-	
+	2 Bubble Sort:
+		Algo:
+		(i).	Start from the first element.
+		(ii).	Compare each pair of adjacent elements.
+		(iii).	If the left element is greater, swap them.
+		(iv).	Repeat the process for all elements.
+		(v).	After each pass, the largest element bubbles to the end.
+		(vi).	Continue for n-1 passes or until no swaps are needed.
+		
+		- Time complexity:
+			Best case: O( n );
+			Worst case: O( n^2 );
+			Avg case: O( n^2 );
+			
+		
+	3. Insertion sort:
+		Insertion Sort is a simple comparison-based sorting algorithm.
+		It build the final sorted array one elment at a time, just like how you sort cards
+		in your hand.
+		
+		Algo:
+		(i).	Start from the second element(index 1).
+		(ii).	Compare it with the elements before it.
+		(iii).	Shift the larger elements one position to the right.
+		(iv).	Insert the current element at its correct position.		
+		
+		Complexity:
+			1. Best case: O( n );
+			2. Avg case:  O( n^2 );
+			3. Worst case: O( n^2 );		
+		
 	
 	
 	
