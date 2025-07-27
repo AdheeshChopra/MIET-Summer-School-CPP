@@ -36,11 +36,62 @@ Tree:
 		
 	Leaf:
 		A node that does not have any child is called a leaf or terminal node.
+
+	
+	Binary Tree:
+	A type of tree where each node has at most two children.
+	
+	Balanced Tree:
+	A tree where the height of the two subtree of any node differes by at most one.
+	
+	Binary Search Tree(BST):
+	A Binary tree where each node has a value, and the left subtree of a node 
+	contains only nodes with value less than the node's value, and the right subtree contains only nodes with value greaterthan the node's value.
+	
+	Properties of Binary Tree:
+	- Maximum node at level L = 2^L
+	-Maximum nodes in a tree of height H is 2^H-1.
+
+	
+	
+	Balance factor:
+		difference between height of left subtree and height of right subtree is called
+		Balance factor.
 		
-	Subtree:
-	Depth:
-	Height:
-	Level:
+			Balance factor = h( L-Tree ) - h( R-tree )
+
+	
+	AVL Tree:
+		A non empty binary tree T is an AVL Tree if given TL and TR to be the left 
+		and right subtrees of T and h(TL) and h(TR) to be the heights of subtrees TL
+		and TR respectivel.
+		
+		- For AVL tree the balance factor of a node can be either -1, 0 or 1.
+		- An empty binary tree is an AVL tree.
+		- An AVL tree always be a binary search tree and Blanaced too.
+		- This tree was introduced by Adelson Velshi and Landis (AVL).
+		- In BST and AVL tree typically duplicate elements are not allowed.
+
+
+
+
+
+
+
+
+
+- TO solve RR-imbalance we need to use Left rotation.
+- To solve LL-imbalance we need to use right rotation.
+
+
+
+
+
+
+
+
+
+
 
 
 	
